@@ -1,0 +1,54 @@
+body{
+    background-image: linear-gradient(65deg, rgb(105, 105, 175),rgb(97, 165, 97));
+} 
+.container{
+    height: 400px;
+    width: 300px;
+    background-image: url("./station2.jpeg");
+background-repeat: no-repeat;    
+background-size: cover;
+text-align: center;
+margin: 160px 450px;
+z-index: 0;
+color: rgb(0, 0, 0);
+}
+h1{
+    padding: 5px;
+    font-size: 25px;
+    font-weight: 700;
+z-index: 5;
+}
+h2{
+    font-size: 40px;
+    background-color: aliceblue;
+    width: 50px;
+    margin-left: 130px;
+    font-weight: 500;
+}
+#btn-increment{
+    margin-top: 10px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgb(204, 98, 37);
+    font-size: 30px;
+    cursor: pointer;
+}
+#save{
+    margin-top: 30px;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    color: rgb(255, 255, 255);
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgb(84, 190, 70);
+    font-size: 30px;
+    cursor: pointer;
+}
+p{
+   text-align: center; color: white; background-color: black; width: 100%; font-size: 20px; 
+}
